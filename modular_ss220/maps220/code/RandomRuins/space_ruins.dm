@@ -12,6 +12,16 @@
 
 // Добавлять свои руины под этими комментариями. Делать это по примеру выше!
 // Комментарии УДАЛИТЬ если копируешь пример.
+/datum/map_template/ruin/space/teta_oldstation
+	name = "Teta"
+	id = "teta_oldstation"
+	description = "Заброшенная станция проекта А.Б.О.Т.Ч. А именно Тета"
+	prefix = "modular_ss220/teta_remap/map_files220/RandomRuins/SpaceRuins/"
+	suffix = "teta_oldstation.dmm"
+	cost = 1
+	allow_duplicates = FALSE
+	always_place = TRUE
+
 /datum/map_template/ruin/space/mechtransport_new
 	name = "Mechtransport"
 	id = "mechtransport_new"
@@ -63,9 +73,9 @@
 	prefix = "_maps/map_files220/RandomRuins/SpaceRuins/"
 	suffix = "whiteship.dmm"
 	description = "An old, abandoned NT medical ship. Its computer can navigate to other landmarks within space with ease."
-	allow_duplicates = FALSE 
-	always_place = TRUE 
-	cost = 0 
+	allow_duplicates = FALSE
+	always_place = TRUE
+	cost = 0
 
 /datum/map_template/ruin/space/voxraiders_1
 	name = "Vox Raiders"
